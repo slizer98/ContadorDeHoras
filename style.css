@@ -1,0 +1,125 @@
+html {
+    padding: 20px;
+    color: #3d3d3d;
+  }
+  
+  .red {
+    color: tomato;
+  }
+body{
+  display: flex;
+  align-items: center;
+  /* align-content: center; */
+  height: 638px;
+  /* height: 1379px; */
+  background: linear-gradient(green, rgb(0, 0, 24) );
+
+
+
+}
+  #app{
+    background: linear-gradient( blue, rgb(2, 2, 83));
+    width: 40%;
+    height: auto;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 3px green solid;
+    border-radius: 20px;
+    }
+  .titulo{
+    color: rgb(55, 189, 3);
+    margin-right: 30px;
+    font-style: italic ;
+    font-weight: bold;
+  }
+  .container-input{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-size: 20px;
+  }
+  .container{
+    display: flex;
+    align-items: center;
+  }
+  .input-titulo{
+    width: 300px;
+    height: 30px;
+    color: #fff;
+    border-style: none;
+    border: 1px #FFF solid ;
+    background: rgb(9, 72, 189);
+    margin-right: 10px;
+  }
+  .input-hora{
+    width: 45px;
+    height: 30px;
+    color: #fff;
+    border-style: none;
+    border: 1px #FFF solid ;
+    background: rgb(9, 72, 189);
+  }
+ 
+  ::placeholder{
+    color: rgba(255, 255, 255, 0.733);
+  } 
+
+  
+  .boton{
+    margin-left: 10px;
+    width: 31px;
+    height: 31px;
+    color: #FFF;
+    font-size: 25px;
+    margin-top: 20px ;
+    border-radius: 117px;
+  background: #33d507;
+  box-shadow: inset 18px 18px 36px #249705,
+            inset -18px -18px 36px #42ff09;
+  }
+ 
+  .titulo-list{
+    text-align: center;
+    margin-top: 0px;
+    color: rgb(55, 189, 3);
+    font-style: italic;
+    font-size: 25px;
+    background: rgba( 64, 128, 210, 0.2 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 3px );
+    -webkit-backdrop-filter: blur( 3px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+  }
+  .list{
+    border-radius: 14px;
+    background: #362aea;
+    box-shadow: inset 10px 10px 20px #2920b2,
+                inset -10px -10px 20px #4334ff;
+  }
+  .list li{
+    color: #fff;
+  }
+
+  .total-time{
+    color: chartreuse;
+  }
+  .corazon{
+
+    animation: cora 2s linear infinite;
+  }
+
+  @keyframes cora {
+    0%{
+      font-size: 10px;
+    }
+    50%{
+      font-size: 30px;
+    }
+    100%{
+      font-size: 10px;
+    }
+  }
